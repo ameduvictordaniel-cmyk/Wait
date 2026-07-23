@@ -1,1 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Happy Birthday ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<!-- Loading Screen -->
+<div id="loadingScreen" class="screen">
+
+    <h1 class="loadingTitle">
+        🎂 Happy Birthday 🎂
+    </h1>
+
+    <p class="loadingText">
+        Preparing a little surprise for you...
+    </p>
+
+    <div class="loader"></div>
+
+</div>
+
+<!-- Welcome Screen -->
+<div id="welcomeScreen" class="screen hidden">
+
+    <div class="card">
+
+        <h1>Happy Birthday ❤️</h1>
+
+        <h2 id="personName">
+            My Dearest...
+        </h2>
+
+        <p>
+            Today is a very special day.
+        </p>
+
+        <p>
+            I made something special just for you.
+        </p>
+
+        <button id="startBtn">
+            Open Your Surprise 🎁
+        </button>
+
+    </div>
+
+</div>
+
+<!-- Gift Screen -->
+<div id="giftScreen" class="screen hidden">
+
+    <div class="card">
+
+        <h1>Your Gift 🎁</h1>
+
+        <div id="giftBox" class="gift">
+
+            🎁
+
+        </div>
+
+        <p>
+            Tap the gift to open it.
+        </p>
+
+    </div>
+
+</div>
+
+<!-- Message Screen -->
+<div id="messageScreen" class="screen hidden">
+
+    <div class="card">
+
+        <h1>💖 A Message For You 💖</h1>
+
+        <p id="messageText">
+
+            Every birthday is special...
+
+            But today is extra special because
+            it is the day someone amazing came
+            into this world.
+
+        </p>
+
+        <button id="nextBtn">
+
+            Continue ❤️
+
+        </button>
+
+    </div>
+
+          </div><!-- Gallery Screen -->
+<div id="galleryScreen" class="screen hidden">
+
+    <div class="card">
+
+        <h1>📸 Beautiful Memories</h1>
+
+        <div class="gallery">
+
+            <img src="images/photo1.jpg" alt="Photo 1">
+
+            <img src="images/photo2.jpg" alt="Photo 2">
+
+            <img src="images/photo3.jpg" alt="Photo 3">
+
+            <img src="images/photo4.jpg" alt="Photo 4">
+
+        </div>
+
+        <button id="galleryNextBtn">
+
+            Next ❤️
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- Final Screen -->
+
+<div id="finalScreen" class="screen hidden">
+
+    <div class="card">
+
+        <h1>🎉 Happy Birthday 🎉</h1>
+
+        <h2>You deserve all the happiness in the world ❤️</h2>
+
+        <p>
+
+            Thank you for being such an amazing person.
+
+            I hope this new year of your life brings
+            happiness, success, good health, laughter,
+            and everything your heart desires.
+
+        </p>
+
+        <p>
+
+            Always keep smiling because your smile
+            makes the world brighter.
+
+        </p>
+
+        <h2>❤️ Happy Birthday Once Again ❤️</h2>
+
+        <button id="restartBtn">
+
+            Watch Again 🔄
+
+        </button>
+
+    </div>
+
+</div>
+
+<audio id="bgMusic" loop>
+
+    <source src="music.mp3" type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+  </html>
